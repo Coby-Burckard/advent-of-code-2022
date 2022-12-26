@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "typescript": "^4.9.4",
+    "commander": "9.4.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
