@@ -4,8 +4,9 @@ import S3 from "./day3/";
 import S4 from "./day4";
 import * as fs from "fs";
 import { Config, Solver } from "./types";
+import S5 from "./day5";
 
-export type DaysType = 1 | 2 | 3 | 4;
+export type DaysType = 1 | 2 | 3 | 4 | 5;
 
 export const solverMap: {
   [k in DaysType]: Solver;
@@ -14,6 +15,7 @@ export const solverMap: {
   2: S2,
   3: S3,
   4: S4,
+  5: S5,
 };
 
 export const mapLinesToNumbers = (lines: string[]) => lines.map(Number);
